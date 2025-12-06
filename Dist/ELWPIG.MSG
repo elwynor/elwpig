@@ -1,0 +1,258 @@
+
+LEVEL4 {Elwynor Technologies: Pig}
+
+ This is the score that a person needs to get
+ to win a game of Pig
+ 
+FINSCO {Score: 100} N 10 1000
+
+LEVEL6 {Elwynor Technologies: Pig}
+
+GOTHER {[37m***
+[32m%s [37mjust arrived.
+} T Pig User just arrived message
+
+
+WELCOM {[33mWelcome to [31mPig![33m  Hope you enjoy yourself!
+} T Pig Welcome message
+
+
+TELECO {[33mType [31m? [33mor [31mHELP [33mfor more information.
+} T Pig Help Suggestion
+
+
+MESENT {[33m-- [36mMessage Sent [33m--
+} T Pig Message Sent Confirmation
+
+
+DISPLA {***
+[1;33mFrom [31m%s[33m: [32m%s
+} T Pig Message Display String
+
+
+WHOHR1 {[37mYou are here with [32m%s} T Pig Who is here string
+
+
+WHOHR2 {[37m, [32m%s} T Pig Who is here list
+
+
+ONYHRE {[37mYou are the only person present at the moment.
+} T Pig User is alone message
+
+
+PERIOD {[37m.
+} T Pig End of line output
+
+
+EXTUSR {[37m***
+[32m%s [37mjust exited in a hurry!
+} T Pig User exited game message
+
+
+BYEUSR {[37m***
+[32m%s [37mjust got zapped!
+} T Pig User got zapped message
+
+
+PIGEXT {[37mCome back again soon!
+} T Pig Goodbye text
+
+
+ALRPLA {[31mYou are already playing!
+} T Pig User is already playing rebuff
+
+
+SIGNUP {[37m***
+[32m%s [36mjust signed up for the next game.
+} T Pig User signed up for the next game message
+
+
+ALLSIG {[36mYou are now signed up for the next game.
+} T Pig You signed up for the next game confirmation
+
+
+TAKOUT {[36mYou have been removed from the game.
+} T Pig You are removed confirmation
+
+
+NOTENT {[31mYou are not entered in the game.
+} T Pig You are not playing rebuff
+
+
+HISTRN {[37m***
+It is now [32m%s's [36mturn.
+} T Pig User turn announcement
+
+
+YOUTRN {[37m***
+[36mIt is now your turn.
+} T Pig Your turn message
+
+
+NEWGAM {[37m***
+[33mA new game has just started!  Everyone's score is 0.
+} T Pig New game announcement
+
+
+NUDGEY {[37m***
+[33mCome on, then!  [33mDo something already!
+} T Pig User is taking too long message
+
+
+NUDALL {[37m***
+[32m%s [33mis being pestered to do something!
+} T Pig User is taking too long public message
+
+
+HEROLL {[37m***
+[32m%s [36mjust rolled [32m%d [36mand [32m%d[36m.  [32m%s [36mscore for this turn is now [32m%d[36m.
+} T Pig User roll results announcement
+
+
+YOUSTA {[37m***
+[32m%s [36mstayed with [32m%d [36mpoints.  Total Score = [32m%d.
+} T Pig User stay announcement
+
+
+YOUWIN {[37m***
+[32m%s [36mwins with over [32m%d [36mpoints.
+The next game will start soon!
+} T Pig User wins announcement
+
+
+DEFAUL {[37m***
+[32m%s [36mwins by [32mDEFAULT[36m.
+The next game will start soon!
+} T Pig User wins by default announcement
+
+
+DEFAUT {[36mYou win by [32mDEFAULT[36m.
+The next game will start soon!
+} T Pig You win by default message
+
+
+HELOST {[37m***
+[32m%s [36mrolled a [32m7 [36mand forfeits %s turn!
+} T Pig User rolled a 7 announcement
+
+
+YOUROL {[33mYou just rolled [32m%d [33mand [32m%d[33m.
+} T Pig Your roll results
+
+
+YOLOST {[33mYou just rolled a [32m7[33m.
+You lose all your points and forfeit your turn!
+} T Pig You rolled a 7 message
+
+
+YOUCOL {[33mYou collected [32m%d [33mpoints this turn.
+} T Pig Your points this turn message
+
+
+YOUWON {[33mYou collected over [32m%d [33mpoints! You're the winner!.
+Next game will start soon.
+} T Pig You won message
+
+
+TOTSCO {[36mYour total score for this turn is now [32m%d.
+} T Pig Total Score for Turn message
+
+
+TOTALS {[36mYour total score is now [32m%d.
+} T Pig Total Score message
+
+
+DICEON {[36mYour dice display is now on!
+} T Pig Dice display on confirmation
+
+
+DICEOF {[36mYour dice display is now off!
+} T Pig Dice display off confirmation
+
+
+NOTTRN {[31mIt's not your turn yet!
+} T Pig Not your turn rebuff
+
+
+SCANME {[37m==========================================
+[31mUser                           [32mW [33mP [34mT [36mScore
+[37m==========================================
+} T Pig Scan header
+
+
+SCANEM {[31m%-30s [32m%c [33m%c [34m%c [36m%d
+} T Pig Scan line
+
+
+DICE {[0;1;31;40m
+ 
+                Die #1        Die #2   [37m
+                …ÕÕÕÕÕª       …ÕÕÕÕÕª
+                ∫[33m%c %c %c[37m∫       ∫[33m%c %c %c[37m∫
+                ∫[33m%c %c %c[37m∫       ∫[33m%c %c %c[37m∫
+                ∫[33m%c %c %c[37m∫       ∫[33m%c %c %c[37m∫
+                »ÕÕÕÕÕº       »ÕÕÕÕÕº
+ 
+} T Pig ANSI dice
+
+
+TOPTEN {[33m    High Game Winners:
+[37m==================================
+} T Pig High score header
+
+
+TOPTN1 {[32m%-20s  [31m%5d
+} T Pig High score line
+
+
+SCORED {[36mScore: [32m%d wins
+} T Pig Score output
+
+
+HELPSC {[0m[2J    [1;31mPIG
+(c) Elwynor Technologies
+[35mThe object of the game is
+to be the first to collect %d points by rolling dice.
+
+[36mIf it is your turn you roll the dice to accumulate points.
+If you roll a 7, you lose your points for that turn.
+If you roll anything else, you accumulate those points.
+You may stay at any time while rolling the dice.  If you
+choose to stay, you will keep the points you have earned.
+Everyone else will get a chance to roll before the dice
+are returned to you.  If you reach %d points first, you
+win the game!
+
+[34mDICE ON/OFF  [33m........  Turns Dice Display on and off
+[34mHIGH  [33m...............  Shows score of users.
+[34mJOIN  [33m...............  Enters you in the next game
+[34mQUIT  [33m...............  Removes you from the game
+[34mROLL  [33m...............  Roll the dice (Your turn only)
+[34mSCAN  [33m...............  List users in PIG and their scores
+[34mSCORE  [33m..............  Shows how many times you have won
+[34mSTAY  [33m...............  Stay with your points (Your turn only)
+
+You can whisper to users by typing /(userid) (message)
+
+[36m
+   If you are the only person present in the game, the
+game will start as normal.
+
+} T Pig HELP text
+
+
+NOUSER {[31mThere is no user here by that name.
+} T Pig No user here rebuff
+
+
+MORLET {[36mThere is more than one user here with that userid, be more specific.
+} T Pig Multiple user match rebuff
+
+
+WHISPFR {***
+[1;33mFrom [31m%s[33m (Whispered): [32m%s
+} T Pig Whisper output
+
+
+WHISENT {[33m-- [36mWhisper Sent [33m--
+} T Pig Whisper Sent confirmation

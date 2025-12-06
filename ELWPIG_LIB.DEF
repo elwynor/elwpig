@@ -1,0 +1,6 @@
+; Filename: ELWPIG_LIB.DEF
+LIBRARY ELWPIG.DLL
+; *** Visual Studio 2022 EXPORT ALIASES ONLY ***
+; Pig! - Copyright (c) 2025 Elwynor Technologies
+EXPORTS
+    init__elwpig=_init__elwpig	@1
